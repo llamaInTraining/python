@@ -15,6 +15,24 @@ if road == 'right':
     choice = input("ignore, heal, feed? ")
     if choice == 'ignore':
         print("i wouldnt have choose that")
+        print("after walking down the cave someone approaches you...")
+        person = input("let's walk this road together, we can keep each other safe...(yes or no)")
+        if person == 'yes':
+            print("can you trust a rando  you met on a dark forest?")
+            print("while fighting your way through the forest, the TANK lets you pick between special tea or water")
+            hydrate = input("water or tea?....")
+            if hydrate == 'tea':
+                print("the last thing you see as you close your eyes is the rando approaching you with a knife...")
+                print("GAME OVER!!!!")
+                print("...")
+                print("...")
+                last_chance = input("press the button of that mistery bottle you found in a dungeon...(yes/no)")
+                if last_chance == 'yes':
+                    print("the bottle shoots a laser through the rando.....")
+                    print("you survived!!")
+                else: 
+                    print("you were destined to be ended")
+
     elif choice == 'heal':
         print("not many would have done that...")
     elif choice == 'feed':

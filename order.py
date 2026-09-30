@@ -36,7 +36,7 @@ if road == 'right':
     elif choice == 'heal':
         print("not many would have done that...")
     elif choice == 'feed':
-        print('hope you know what you are doing... that was your last heal...')
+        print('hope you know what you are doing... that was the last of your food...')
 
 
 elif road == 'left':

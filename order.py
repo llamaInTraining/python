@@ -27,7 +27,7 @@ if road == 'right':
                 print("...")
                 print("...")
                 last_chance = input("press the button of that mistery bottle you found in a dungeon...(yes/no)")
-                if last_chance == 'yes':
+                if last_chance == "yes":
                     print("the bottle shoots a laser through the rando.....")
                     print("you survived!!")
                 else: 
@@ -37,8 +37,13 @@ if road == 'right':
         print("not many would have done that...")
     elif choice == 'feed':
         print('hope you know what you are doing... that was the last of your food...')
-
-
+        print('as you walk away, you noticed the dog following you... ')
+        dog_name= input("seems the animal will follow you, are you going to name him?(yes/no)")
+        if dog_name == 'yes:':
+            name = input("what are you gonna name him?")
+            print("so his name will be..", name)
+        else:
+            print("i guess you can just call him dog")
 elif road == 'left':
     print("the left path of the world is not for the weary, you have a taste for challenge ")
 

@@ -56,7 +56,5 @@ elif road=='walk back':
 
 else:
     print("WHAT ARE YOU DOING!!?? MOVE!!")
-<<<<<<< HEAD
     print("you can't start the game if you dont tell me which way you are going")
-=======
->>>>>>> 5068799a84fafe672e679a4fd3686103ab5ea6ae
+

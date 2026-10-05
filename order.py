@@ -39,7 +39,7 @@ if road == 'right':
         print('hope you know what you are doing... that was the last of your food...')
         print('as you walk away, you noticed the dog following you... ')
         dog_name= input("seems the animal will follow you, are you going to name him?(yes/no)")
-        if dog_name == 'yes:':
+        if dog_name =='yes:':
             name = input("what are you gonna name him?")
             print("so his name will be..", name)
         else:
@@ -55,3 +55,4 @@ elif road=='walk back':
 
 else:
     print("WHAT ARE YOU DOING!!?? MOVE!!")
+    print("you can't start the game if you dont tell me which way you are going")

@@ -32,6 +32,7 @@ if road == 'right':
                     print("you survived!!")
                 else: 
                     print("you were destined to be ended")
+                    print("your soul will be nourishment for the next generation")
 
     elif choice == 'heal':
         print("not many would have done that...")
@@ -55,4 +56,7 @@ elif road=='walk back':
 
 else:
     print("WHAT ARE YOU DOING!!?? MOVE!!")
+<<<<<<< HEAD
     print("you can't start the game if you dont tell me which way you are going")
+=======
+>>>>>>> 5068799a84fafe672e679a4fd3686103ab5ea6ae

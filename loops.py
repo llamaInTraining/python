@@ -20,3 +20,11 @@ for i in range(0,6):
 
 for i in range(10,0,-1):
     print("backwards...",i)
+
+while True:
+    age = input("enter the age:")
+    if age.isdigit():
+        age = int(age)
+    else:
+        print("invalid. numbers only")
+    break

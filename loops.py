@@ -22,9 +22,16 @@ for i in range(10,0,-1):
     print("backwards...",i)
 
 while True:
-    age = input("enter the age:")
+    age = input("enter the age: ")
     if age.isdigit():
         age = int(age)
     else:
         print("invalid. numbers only")
     break
+
+a = float(input("give me a starting amount: "))
+while a < 50:
+    print(a)
+    b = a* 0.043
+    a = a+b
+

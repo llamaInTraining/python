@@ -29,3 +29,17 @@ while True:
     else:
         print("invalid. numbers only")
     break
+
+secret_pin = "8888"
+attempts = 0
+while attempts < 3:
+    guess = input("ENTER PIN: ")
+    if guess == "8888":
+        print("you are in")
+        break
+    elif guess != "8888":
+        attempts += 1
+        if attempts == 3:
+            print("You can try again in 30 minutes")
+        
+    

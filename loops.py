@@ -2,9 +2,15 @@ for i in range(4):
     print('hi')
 
 
-count = 1
-while count > 0:
-    print("processing")
-    count += 1
+#count = 1
+#while count > 0:
+    #print("processing")
+    #count += 1
 
     #break
+
+while True: 
+    cmd = input("Type 'exit' to quit: ") 
+    if cmd == "exit": 
+        print("Shutting down.") 
+    break

@@ -32,6 +32,7 @@ if road == 'right':
                     print("you survived!!")
                 else: 
                     print("you were destined to be ended")
+                    print("your soul will be nourishment for the next generation")
 
     elif choice == 'heal':
         print("not many would have done that...")

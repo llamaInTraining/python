@@ -25,13 +25,7 @@ while True:
     age = input("enter the age: ")
     if age.isdigit():
         age = int(age)
+        print("age accepted")
     else:
         print("invalid. numbers only")
     break
-
-a = float(input("give me a starting amount: "))
-while a < 50:
-    print(a)
-    b = a* 0.043
-    a = a+b
-

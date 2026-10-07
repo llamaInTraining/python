@@ -29,8 +29,10 @@ while items_selected < 3:
         print("have a lovely day")
     else:
         print("invalid choice")
-    print("total cost is:",total )
-
+    
+print("checking out")
+print("total cost is:",total )
+print("Have a great day!")
 
     
 

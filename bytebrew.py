@@ -27,11 +27,23 @@ while items_selected < 3:
 
     elif choice == "4":
         print("have a lovely day")
+        break
+    
     else:
         print("invalid choice")
+        
     
 print("checking out")
 print("total cost is:",total )
+print("would you lile to apply a 10% coupon?")
+
+answer = input("enter choice(yes/no)")
+if answer == 'yes':
+    new_price= total* 0.9
+    print("10% discount applied")
+    print("new total is ", new_price)
+else:
+    print("you got it boss")
 print("Have a great day!")
 
     

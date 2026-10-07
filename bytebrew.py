@@ -1,3 +1,7 @@
+#use while to create a loop where items and total cost is added per choice
+#after max number of items is reached code sents you straight to checkout
+
+
 print("Welcome to Byte and Brew Tech Cafe!")
 
 total = 0
@@ -35,7 +39,7 @@ while items_selected < 3:
     
 print("checking out")
 print("total cost is:",total )
-print("would you lile to apply a 10% coupon?")
+print("would you like to apply a 10% coupon?")
 
 answer = input("enter choice(yes/no)")
 if answer == 'yes':

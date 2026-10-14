@@ -6,6 +6,7 @@ print("Welcome to Byte and Brew Tech Cafe!")
 
 total = 0
 items_selected = 0
+items = ["black coffee", "vanilla latte","blueberry muffin"]
 while items_selected < 3:
     print("Menu")
     print("1. Black Coffee - $2.50")
@@ -32,6 +33,10 @@ while items_selected < 3:
     elif choice == "4":
         print("have a lovely day")
         break
+
+    elif choice == "0000":
+        items.append(input("enter new item"))
+        print(items)
     
     else:
         print("invalid choice")

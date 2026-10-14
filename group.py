@@ -1,6 +1,6 @@
 #create a while a loop that continues, an mutable AND immutable list
 #start with two list: mutable and immutable
-approve_models = ["MacBook Pro", "Dell XPS", "ThinkPad"]
+approve_models = ("MacBook Pro", "Dell XPS", "ThinkPad")
 device_inventory= []
 while True:
     print("1: Add: ")

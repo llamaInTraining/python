@@ -9,6 +9,7 @@ while True:
     print("4: Exit: ")
     choice = input("enter choice: ")
     if choice == "1":
+        print("Approved models: ",approve_models )
         new_item = input("enter the new item:  ")
         if new_item in approve_models:
             device_inventory.append(new_item)

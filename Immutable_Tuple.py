@@ -1,7 +1,7 @@
 # Define the Immutable Tuple
 # RAW SOC SYSTEM LOGS
 # Format: [SEVERITY] | IP_ADDRESS | USERNAME | PORT | EVENT_STATUS
-secure_ports=("22","80","443","3389")
+secure_ports=(22,80,443,3389)
 
 raw_forensic_logs = [
 "[critical] |  192.168.1.105 | Admin_User | 22 | failed_login",
@@ -24,23 +24,23 @@ for log in raw_forensic_logs:
 
     print(f"Attacker username: {parts[2]}, Attacker IP: {parts[1]}, Severity: {parts[0]}")
 
-number = input("enter a port number: ")
+number = int(input("enter a port number: "))
 #count = 0
 
 if number in secure_ports:
-    if number  == "22":
+    if number  == 22:
             print("port recognized")
             print("SSH - Secure remote login and administration of Linux/Unix systems")
             #count +=1
-    elif number == "443":
+    elif number == 443:
             print("port recognized")
             print("HTTPS - Secure encrypted web traffic")
             #count+=1
-    elif number == "80":
+    elif number == 80:
             print("port recognized")
             print("HTTP - Regular web traffic (not encrypted)")
             #count+=1
-    elif number == "3389":
+    elif number == 3389:
             print("port recognized")
             print("RDP - Remote Desktop Protocol for remotely controlling Windows computers")
             #count+=1
